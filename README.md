@@ -1,16 +1,19 @@
 # Quiz Maker
 
+Ever quiz grinded all the names of animals only to realize that your next book is about plants? Solve this issue by creating custom quizzes for your target book!
+
 To use:
 - Install requirements (will be large due to tokenizer)
+- Convert target text to a txt file
 - Run the script
 
-```
-python .\make_quiz.py -n1
+```bash
+python ./make_quiz.py -n1
 ```
 
 ## Arguments
 
-```
+```python
 positional arguments:
   input                 Input file
 
