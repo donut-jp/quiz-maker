@@ -126,7 +126,7 @@ def main():
     elif args.n5:
         excluded_terms = excluded_terms.union(set(entry['question'] for entry in get_quiz_csv('./tangorin/jlpt_n5.csv')))
 
-    input_filename = 'input.txt'
+    input_filename = args.input
     output_filename = args.outfile
 
     # tokenize input

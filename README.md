@@ -13,7 +13,7 @@ python ./make_quiz.py -n1
 
 ## Arguments
 
-```python
+```bash
 positional arguments:
   input                 Input file
 
